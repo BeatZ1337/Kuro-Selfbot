@@ -49,52 +49,6 @@ slotbot_sniper = config.get('slotbot_sniper')
 nitro_sniper = config.get('nitro_sniper')
 privnote_sniper = config.get('privnote_sniper')
 
-
-def AuthMenu():
-    print("\033[31mBy Continuing You Agree To Our TOS")
-    print("\033[31m1. \033[97mIf You Get Banned Its Not Our Responsibilty.")
-    print("\033[31m2. \033[97mIf You Use Another Selfbot And Anything Happens Dont Come To Us About It.")
-    print("\033[31m3. \033[97mIf Someone Sees Your Token Through Our Config File Not Our Problem.")
-    print("\033[31m4. \033[97mNo Claiming This Is Your Bot Or You Made It Thats Dumb.")
-    print("\033[31m5. \033[97mYou Are Not Allowed To Host Your Friends.")
-    print("\033[31m6. \033[97mWe Do Not Offer Refunds.")
-    print("")
-    print(f"\033[97m[\033[31m!\033[97m] \033[97mType \033[31m1 \033[31mTo Check If You Have Purchased. ")
-    choice = input(f"\033[97m[\033[31m>\033[97m] ")
-    if choice == "1":
-        print()
-        print(f"\033[97m \033[31mThanks For Choosing Kuro Selfbot \033[97m")  
-        print()
-        Auth()
-    else:
-        print(f"Not a valid option")
-        Clear()
-        AuthMenu()
-
-def Auth():
-    Client = MongoClient("mongodb+srv://BeatZ:wZcnqX0x703cuIRx@cluster0-5pttt.mongodb.net/test?retryWrites=true&w=majority")
-    db = Client["BeatZ"]
-    collection = db["HWID"]
-    validate = {}
-    validate ['HWID'] = hwid
-    if collection.find_one({"HWID": hwid}):
-        print(f"\033[97m[\033[31m+\033[97m]\033[97m HWID Success ")
-        time.sleep(1)
-        print(f"\033[97m[\033[31m+\033[97m]\033[97m Logging Into Kuro... ")
-        time.sleep(1)
-        print(f"\033[97m[\033[31m+\033[97m]\033[97m BeatZ Is Your Daddy Btw... ")
-        time.sleep(2)
-        Clear()
-        Init()
-    else:
-        print()
-        print(f"[!] YOU HAVE NOT PAID GO BACK AND PURCHASE SKID ")
-        print("HWID: "+hwid)
-        print()
-        time.sleep(5)
-        Clear()
-        AuthMenu()
-
 def Init():
 		Beatz.run(token, bot=False, reconnect=True)
 
@@ -1044,4 +998,4 @@ async def on_command_error(ctx, error):
         print(f"[ERROR]: {error_str}")   
 
 if __name__ == '__main__':
-    AuthMenu()
+    Init()
