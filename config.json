@@ -1,0 +1,12 @@
+{
+	"token": "TOKEN-HERE",
+	"prefix": ".",
+	"afk_message": "AFK-MESSAGE",
+	"paypalemail": "PAYPAL-EMAIL",
+	
+	"nitro_sniper": true, 
+    "giveaway_sniper": true,
+    "slotbot_sniper": false,
+    "privnote_sniper": false,
+    "lol": "lol"
+}
