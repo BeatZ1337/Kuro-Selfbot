@@ -1,7 +1,7 @@
 <div align="center">
   <h1>BeatZ#0001</h1>
   <a href="https://discord.gg/ChTnCCb">
-    < alt="Discord" />
+    <h1>Click Here/>
   </a>
 </div>
 
