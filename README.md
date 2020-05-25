@@ -1,7 +1,7 @@
 <div align="center">
   <h1>BeatZ#0001</h1>
   <a href="https://discord.gg/ChTnCCb">
-    <img src="https://discord.com/assets/28174a34e77bb5e5310ced9f95cb480b.png" alt="Discord" />
+    <img src="https://alternateu.com/wp-content/uploads/2020/03/Discord-LogoWordmark-Color-620x211.png" alt="Discord" />
   </a>
 </div>
 
