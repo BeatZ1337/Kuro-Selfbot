@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>BeatZ#0001</h1>
+  <h1>BeatZ#1337</h1>
   <a href="https://discord.gg/ChTnCCb">
     <img src="https://alternateu.com/wp-content/uploads/2020/03/Discord-LogoWordmark-Color-620x211.png" alt="Discord" />
   </a>
